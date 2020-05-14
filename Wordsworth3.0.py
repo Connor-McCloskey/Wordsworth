@@ -243,5 +243,6 @@ async def _8ball_error(ctx, error):
 
 
 # Run the bot, passing in the bot token so it knows which application to use -------------------------------------------
-client.run('Njk0NjI2MDUzNzI0OTYyODE2.XoOXLA.DEPhpLo0LXw-BAbJH0xJg0uYvCk')
+# Please note that for security reasons, the token has been removed from the public-facing copy of this code
+client.run('BotTokenHere')
 # --------------------------------------------------------------------------------------------------------------------//
