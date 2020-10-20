@@ -1,4 +1,4 @@
-28
+29
 I'm doing well, how are you?
 I'm feeling a bit under the weather, actually!
 I'm okay. How are you?
@@ -19,7 +19,7 @@ I've been better. How are you?
 I'm okay...wait...what is that smell?! Is that you?!
 Hey! I'm doing well!
 I'm doing awesome! What's new in your life?
-Give Connor all your money I MEAN great, what's new with you?
+Give Connor all your money... I MEAN... Great, what's new with you?
 Can you believe these gas prices?!
 I'm alright. I lost all my money on the stock market today. Guess I shouldn't have invested in novelty apiaries.
 It's cold where I am! How are you?
@@ -27,3 +27,4 @@ It's hot where I am! How are you?
 Just considering the wonders of being alive.
 Just contemplating the wonders of nature.
 It's a beautiful day. I couldn't be better!
+What is love? Baby don't hurt me, don't hurt me, no more!
