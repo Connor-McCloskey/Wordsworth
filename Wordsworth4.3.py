@@ -27,8 +27,9 @@ v.4.3 (10/20/2020)
 - [DONE] Add function for shitposting my book
 - [DONE] Add function for displaying quotes
 """
+
 # Global variable to store Discord username for the bot's admin---------------------------------------------------------
-bot_admin = "HeliusCarthaxis"
+bot_admin = "User's Discord username goes here!"
 # --------------------------------------------------------------------------------------------------------------------//
 
 # Imports --------------------------------------------------------------------------------------------------------------
@@ -502,5 +503,5 @@ async def _8ball_error(ctx, error):
 
 
 # Run the bot, passing in the bot token so it knows which application to use -------------------------------------------
-client.run('Njk0NjI2MDUzNzI0OTYyODE2.Xr2fdw.0lwmfSpzti3GWQwOV7buOQtyF9w')
+client.run('Bot token goes here!')
 # --------------------------------------------------------------------------------------------------------------------//
