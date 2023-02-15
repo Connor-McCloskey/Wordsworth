@@ -1,0 +1,35 @@
+Wordsworth - A Discord Bot
+
+---Change log---
+Since I have moved to incremental changes, I will be swapping to version 4 and updating him from there.
+Unless I overhaul his core functionality or do some sort of major refractoring, I'll leave him at v.4.X for now.
+
+v.3.0 (4/15/2020) [DONE]
+For historical purposes, I'm putting some information here on v.3.0. This version implemented many more functions
+(all dice rolling, poetry, jokes, and status updates), user-friendly commands, and went through major refractoring.
+For reference, refer to Wordsworth3.0.py and Wordsworth 2.0.py. Point is, 3.0 onward is way better in every way.
+
+v4.0 (10/08/2020) [DONE]
+- [DONE] Adding functions to tell time in Colorado vs California vs Japan
+
+v.4.1 (10/09/2020) [DONE]
+- [DONE] Add information for help command
+
+v.4.2 (10/15/2020) [DONE]
+- [DONE] Added functions to record date of playing a DnD session and returning days since the last session.
+- [DONE] Refractored poetry function to be more dynamic
+
+v.4.3 (10/20/2020)
+- [DONE] Add function for playing rock, paper, scissors
+- [DONE] Add score tracking for rock, paper, scissors
+- [DONE] Add function for shitposting my book
+- [DONE] Add function for displaying quotes
+
+v.4.4 (09/17/2021)
+- [DONE] Added a random Gabe Time function
+
+v.5.0
+- Added remote shutdown command
+
+v.6.0
+- Refactor, including shift to OOP
