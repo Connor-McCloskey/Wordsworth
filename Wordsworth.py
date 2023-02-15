@@ -11,7 +11,7 @@ import json
 import os.path
 import glob
 from enum import Enum
-import time
+import logging
 from datetime import date, datetime, timedelta
 # endregion
 
@@ -39,7 +39,6 @@ class Wordsworth(commands.Bot):
     # endregion
 
     # region Class methods
-    # Create all commands this bot responds to
     def rps_update(self, player, result):
         file_path = "player_data//" + player + ".json"
         update_message = "--- Lifetime Scores ---\n"
@@ -462,6 +461,12 @@ class Wordsworth(commands.Bot):
             await self.cmd_dict[msg](ctx)
 
         await self.process_commands(message)
+
+    async def on_member_join(self, member):
+        ctx = member.guild.system_channel
+        name = member.display_name
+        msg = ("A fine day to you, " + name + "! Welcome to the server!")
+        await ctx.send(msg)
     # endregion
 
     # region Error Handling
@@ -476,8 +481,11 @@ class Wordsworth(commands.Bot):
 def main():
     intents = discord.Intents.default()
     intents.message_content = True
+    intents.members = True
 
-    instance = Wordsworth(command_prefix=('.', 'Wordsworth, '), intents=intents)
+    logger = logging.FileHandler(filename='wordsworth.log', encoding='utf-8', mode='w')
+
+    instance = Wordsworth(command_prefix=('.', 'Wordsworth, '), intents=intents, log_handler=logger)
     instance.load()
     instance.run(instance.TOKEN)
 
